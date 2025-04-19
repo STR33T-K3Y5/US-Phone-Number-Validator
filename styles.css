@@ -126,6 +126,13 @@ h1 {
     }
 }
 
+@media (min-width:1024px){
+    .input-field{
+        margin-bottom: 10px;
+        width: 60%;
+    }
+}
+
 @media (max-width: 360px) {
     .outer-body{
         width: 260px;
@@ -137,6 +144,7 @@ h1 {
 
     .input-field{
         margin-bottom: 10px;
+        width: 60%;
     }
 
     #results-div{
