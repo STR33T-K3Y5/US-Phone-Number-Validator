@@ -1,0 +1,145 @@
+body {
+    background-color: #282436;
+}
+
+h1 {
+    font-size: 1.6rem;
+    align-items: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.outer-body {
+    border: 1px solid black;
+    padding: 15px;
+    height: auto;
+    width: 260px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: black;
+    height: auto;
+}
+
+.inner-body {
+    border: 1px solid black;
+    height: auto;
+    width: 260px;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    height: auto;
+}
+
+.about {
+    width: 220px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #2B2D33;
+    color: white;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.about p{
+    margin-left: 2px;
+}
+
+.about ul {
+    color: #2E8B36;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.info {
+    display: flex;
+}
+
+#results-div{
+    overflow-y: auto;
+    height: 265px;
+    width: 100%;
+    text-align: center;
+}
+
+.buttons {
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#check-btn{
+    margin-right: 30px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+#clear-btn{
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+#check-btn:hover {
+    background-color: #2B3233;
+    color: white;
+}
+
+#check-btn:active {
+    background-color: red;
+    color: white;
+}
+
+#clear-btn:hover {
+    background-color: #2B3233;
+    color: white;
+}
+
+#clear-btn:active {
+    background-color: red;
+    color: white;
+}
+
+.input-field {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#user-input{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+@media (max-width: 360px) {
+    .outer-body{
+        width: 310px;
+    }
+}
+
+@media (max-width: 360px) {
+    .outer-body{
+        width: 260px;
+    }
+
+    .inner-body{
+        width: 260px;
+    }
+
+    .input-field{
+        margin-bottom: 10px;
+    }
+
+    #results-div{
+        margin-bottom: 350px;
+    }
+}
